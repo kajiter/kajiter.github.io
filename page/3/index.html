@@ -25,7 +25,7 @@
   
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/css/style.css?v=1578841208810">
+  <link rel="stylesheet" href="/css/style.css?v=1599982001759">
 <link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 <body class="mdui-drawer-body-left">
@@ -49,7 +49,7 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>21</div>
+        <div><span>文章</span>22</div>
         <div><span>标签</span>0</div>
         <div><span>分类</span>0</div>
     </div>
@@ -120,6 +120,46 @@
         <section class="nexmoe-posts" id="brand-waterfall">
     
     <div class="nexmoe-post">
+        <a href="/2017/09/15/iOS开发记录/">
+            <div class="nexmoe-post-cover mdui-ripple"> 
+                
+                <img src="https://i.loli.net/2019/11/28/3rvwfU9nB1ldzVo.jpg" alt="iOS开发记录">
+                
+                <h1>iOS开发记录</h1>
+            </div>
+        </a>
+        <div class="nexmoe-post-meta">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2017年09月15日</a>
+            <a><i class="nexmoefont icon-areachart"></i>976 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 4 分钟</a>
+            
+            
+        </div>
+        <article>
+            
+            <h1 id="iOS开发快捷方式"><a href="#iOS开发快捷方式" class="headerlink" title="iOS开发快捷方式"></a>iOS开发快捷方式</h1><h2 id="Xcode7-0以上打开HTTP权限"><a href="#Xcode7-0以上打开HTTP权限" class="headerlink" title="Xcode7.0以上打开HTTP权限"></a>Xcode7.0以上打开HTTP权限</h2><p>以Open as -&gt;Source Code 的方法打开info.plist文件，然后加入以下代码<br>这段代码放的位置不用固定</p>
+<pre><code>&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+&lt;dict&gt;
+    &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+    &lt;true/&gt;
+&lt;/dict&gt;</code></pre><h2 id="关于Cocopods"><a href="#关于Cocopods" class="headerlink" title="关于Cocopods"></a>关于Cocopods</h2><pre><code>pod update --verbose --no-repo-update
+pod install --verbose --no-repo-update
+</code></pre><h2 id="Podfile-默认初始化文本"><a href="#Podfile-默认初始化文本" class="headerlink" title="Podfile 默认初始化文本"></a>Podfile 默认初始化文本</h2><pre><code>platform :ios , '9.0'
+use_frameworks!
+inhibit_all_warnings!  ##屏蔽pod一切警告
+target 'ProjectName’ do
+  pod 'AFNetworking'
+  pod 'FMDB'
+  pod 'MJRefresh'
+  pod 'ShareSDK3'
+
+end
+</code></pre>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
         <a href="/2017/06/27/Mac电脑生活常用软件/">
             <div class="nexmoe-post-cover mdui-ripple"> 
                 
@@ -163,7 +203,7 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="/js/app.js?v=1578841208814"></script>
+<script src="/js/app.js?v=1599982001762"></script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
 
